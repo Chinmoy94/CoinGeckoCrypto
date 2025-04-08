@@ -20,20 +20,20 @@ function CoinTable(){
    }
    
  return(
-      <div className="my-5 flex flex-col items-center justify-center gap-5 w-[80vw]mx-auto">
+      <div className="my-5 flex flex-col items-center justify-center gap-5 w-[80vw]mx-auto bg-green-100">
     <div className="w-full bg-yellow-400 text-black flex py-4 px-2 font-semibold items-center justify-center ">
 
       {/*Header of the table*/}
-      <div className="basis-[35%] ">
+      <div className="basis-[35%] pl-60">
          Coin
       </div>
-      <div className="basis-[25%]" >
+      <div className="basis-[25%] pl-10" >
          Price
       </div>
-      <div className="basis-[20%]">
+      <div className="basis-[20%] pr-30">
          24h change
          </div>
-         <div className="basis-[20%]">
+         <div className="basis-[20%] pr-40">
             Market Cap
          </div>
     </div>
